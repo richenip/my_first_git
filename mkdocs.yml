@@ -1,0 +1,42 @@
+site_name: Searching-As-Code In A Day
+
+# Add your own site's URL here
+site_url: https://xxx.github.io/my_first_git
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: indigo
+
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: pink
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+  include_search_page: false
+  search_index_only: true
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.top
+    - toc.integrate
+
+# Page tree
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - About: about.md
